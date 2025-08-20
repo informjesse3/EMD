@@ -115,28 +115,7 @@ const About = () => {
           </motion.div>
 
           {/* Right (summary text) */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="bg-indigo-900 text-white p-10 flex flex-col justify-center"
-          >
-            <p className="uppercase py-2 text-sm tracking-widest text-gray-400">
-              TRAINING & CERTIFICATION SUMMARY
-            </p>
-            <span className="leading-relaxed text-gray-300">
-              Between 2022 and 2025, I pursued professional development in humanitarian 
-              work, data analysis, project management, and visualization. I completed 
-              certifications such as the <b>Core Humanitarian Certification Test</b>, 
-              <b>MEAL Essentials</b>, and <b>Project Management Essentials</b>, equipping 
-              me with practical skills in planning, monitoring, and accountability. 
-              Additionally, I enhanced my analytical expertise with courses in 
-              <b>Data Analysis & Action Planning</b>, <b>Choosing Data Collection Methods</b>, 
-              and <b>Power BI for Data Visualization</b>, enabling me to deliver 
-              actionable insights and improve program outcomes.
-            </span>
-          </motion.div>
+         
         </div>
       </div>
     </section>
